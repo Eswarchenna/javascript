@@ -1,17 +1,49 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>Biggest Number</title>
     <script src="bignum.js" defer>
     </script>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        header{
+            background-color:brown;
+            color: white;
+            text-align: center;
+        }
+        label{
+            color: blue;
+        }
+        input{
+            background-color: aqua;
+            color: red;
+        }
+        button{
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: blueviolet;
+        }
+        p{
+            color: grey;
+        }
+    </style>
 </head>
 
 <body>
-     <label>Enter a number1</label>
-    <input id="inputNumber1" text="number">
-    <label>Enter a Number2</label>
-    <input id="inputNumber2" text="number">
-    <button id="btnBiggest" onclick="onClickNumber()">Biggest Number</button>
+    <h1><header>BIG NUM</header></h1>
+    <label>Enter number1:</label>
+    <input id="inputNumber1" type="number">
+    <br>
+    <label>Enter number2:</label>
+    <input id="inputNumber2" type="number">
+    <br>
+    <button onclick="onClickNumber()">Biggest Number</button>
     <p id="pResult"></p>
 
 </body>
