@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>display</title>
+    <style>
+        div {
+            display: block;
+            background: lightblue;
+        }
+
+        span {
+            display: inline;
+            background: yellow;
+        }
+        .box{
+            display:inline-block;
+            width: 500px;
+            height: 100px;
+            background: orange;
+        }
+        .box1{
+             display:inline-block;
+            width: 500px;
+            height: 100px;
+            background: violet;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <label><strong>Block:</strong></label><br>
+    <div class="block">
+        <p>Explanation:</p>
+        <p>display: block takes full width and starts on new line.</p>
+    </div>
+    
+    <label><strong>inline:</strong></label><br>
+    <span class="inline">
+        Explanation:
+        display: inline keeps elements in same line
+    </span><br>
+    
+    <label><strong>inline-Block:</strong></label><br>
+    <div class="box">
+        <p>Explanation</p>
+        <p> display:Allows width and height while staying inline.</p>
+    </div>
+    <div class="box1">
+        <p>Explanation:</p>
+        <p>display:Boxes appear side by side</p>
+    </div><br>
+    
+    <label><strong>None</strong></label><br>
+    <div class="hide">
+        <p>Explanation</p>
+        <p>display:Hides element completely</p>
+    </div><br>
+
+</body>
+
+</html>

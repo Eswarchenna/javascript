@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position</title>
+        <style>
+            .box1{
+                position:static;
+            }
+            .boxes{
+                position: relative;
+                left: 50px;
+            }
+            .box2{
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            .box3{
+                position: fixed;
+                bottom: 20px;
+            }
+            .header{
+                position: sticky;
+                top: 0;
+            }
+            .img{
+                float: left;
+            }
+            .clear{
+                clear: both;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+            }
+            .content{
+                justify-content: center;
+            }
+            .content2{
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>position static:</h1>
+        <div class="box1">
+            <p>Explanation:</p>
+            <p>Default wed page poisitioning.</p>
+        </div>
+        <h1>position Relative:</h1>
+        <div class="boxes">
+            <p>Explanation:</p>
+            <p>Moves relative to orginial position.</p>
+        </div>
+        <h1>position Absolute:</h1>
+        <div class="box2">
+            <p>Explanation:</p>
+            <p>Moves relative to parent.</p>
+        </div>
+        <h4>Position Fixed:</h4>
+        <div class="box3">
+            <p>Explanation:</p>
+            <p>stays fixed during scroll.</p>
+        </div>
+        <h5>position sticky:</h5>
+        <div class="header">
+            <p>Explanation:</p>
+            <p>Becomes fixed when scrolling.</p>
+        </div>
+        <label>Float left:</label>
+        <div class="img">
+            <p>Explanation:</p>
+            <p>Moves element to left.</p>
+        </div>
+        <label>clear Both</label>
+        <div class="clear">
+            <p>Explanation:
+            </p>
+            <p>stops wrapping.</p>
+        </div>
+        <label>Flex Direction:</label>
+        <div class="container">
+            <p>Explanation:</p>
+            <p>controls row or column layout.</p>
+        </div>
+        <strong>Justify content:</strong>
+        <div class="content">
+            <p>Explanation:</p>
+            <p>Aligns items horizontally.</p>
+        </div>
+        <strong>Align items:</strong>
+        <div class="content2">
+            <p>Explanation:</p>
+            <p>Aligns items vertically.</p>
+        </div>
+    </body>
+</html>
