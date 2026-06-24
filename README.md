@@ -28,8 +28,8 @@ JAVASCRIPT:
 24. StringArray.html js
 25. StringofArray.html js
 26. tringSorting.html js
-27. Sub.html js
-28. Wordsletter.html js
+27. Wordsletter.html js
+28. Sub.html js
 
 
 
